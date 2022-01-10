@@ -12,7 +12,7 @@ btnCalc.onclick = () => {
   document.getElementById("valor4").value
   ]
     for(var num = 0; num<=indexInput.length; num++){
-      if(indexInput[num] == ""){
+      if(indexInput[num] == "" || indexInput[num] == "0"){
         switch (num) {
           case 0:
             calc = indexInput[1] * indexInput[2] / indexInput[3];
