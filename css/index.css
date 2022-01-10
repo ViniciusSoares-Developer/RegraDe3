@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-regra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #5cd65c;
+  width: 80vw;
+  border: 2vw solid #5cd65c;
+  border-radius: 5vw;
+  position: relative;
+}
+input{
+  margin: 3vw;
+  width: 30%;
+  height: 10vw;
+  text-align: center;
+  border: 1px solid white;
+  outline: none;
+}
+.resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 30vw;
+  background-color: white;
+  border: 0.5vw solid black;
+  border-radius: 10vw;
+  top:80%;
+}
